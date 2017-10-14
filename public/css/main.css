@@ -148,7 +148,8 @@ ul li {
 }
 .navigation a {
 	/*color: rgba(255, 255, 255, 0.75);*/
-	color: #000;
+	/*color: #000;*/
+	color: #f0de00;
 	font-size: 13px;
 	font-weight: 400;
 	margin-left: 40px;
