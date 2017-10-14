@@ -17,11 +17,11 @@
 <section class="banner" role="banner">
     <header id="header">
         <!-- navigation section  -->
-        <div class="header-content clearfix"> <a class="logo" href="#"><img src="images/velocimetro.jpg" alt="Mafolio" width="100px" height="100px"></a>
+        <div class="header-content clearfix"> <a class="logo" href="/"><img src="images/velocimetro.jpg" alt="Mafolio" width="100px" height="100px"></a>
             <nav class="navigation" role="navigation">
                 <ul class="primary-nav">
-                    <li><a href="contact.html">Iniciar sesión</a></li>
-                    <li><a href="about.html">Quienes somos</a></li>
+                    <li><a href="registrarse">Registrarse</a></li>
+                    <li><a href="/#quienes_somos">Quienes somos</a></li>
                     <li><a href="http://www.zubirimanteo.hezkuntza.net/web/guest/inicio">Web de Zubiri Manteo</a></li>
                 </ul>
             </nav>
@@ -41,8 +41,8 @@
 <!-- header section -->
 <center><h1>Gracias por registrarse</h1></center><br />
 <div id="introduccion">
-    ¡Gracias por registrarse! Un correo electrónico de confirmación ha sido enviado a {{ $_REQUEST['Email'] }}.
-    Por favor, comprueba tu bandeja de correo. <br />
+    <h3>¡Gracias por registrarse! Un correo electrónico de confirmación ha sido enviado a {{ $_REQUEST['Email'] }}.
+        Por favor, comprueba tu bandeja de correo.</h3> <br />
 </div>
 <!-- footer -->
 <footer class="section footer">

@@ -24,11 +24,11 @@
 <section class="banner" role="banner">
   <header id="header"> 
     <!-- navigation section  -->
-    <div class="header-content clearfix"> <a class="logo" href="#"><img src="images/velocimetro.jpg" alt="Mafolio" width="100px" height="100px"></a>
+    <div class="header-content clearfix"> <a class="logo" href="/"><img src="images/velocimetro.jpg" alt="Mafolio" width="100px" height="100px"></a>
       <nav class="navigation" role="navigation">
         <ul class="primary-nav">
-          <li><a href="contact.html">Iniciar sesión</a></li>
-          <li><a href="about.html">Quienes somos</a></li>
+          <li><a href="registrarse">Registrarse</a></li>
+          <li><a href="#quienes_somos">Quienes somos</a></li>
           <li><a href="http://www.zubirimanteo.hezkuntza.net/web/guest/inicio">Web de Zubiri Manteo</a></li>
         </ul>
       </nav>
@@ -57,7 +57,7 @@
   </div>
 </section>
 <!-- description text section -->
-<center><h1>Quiénes somos</h1></center>
+<center><h1><a id="quienes_somos"></a> Quiénes somos</h1></center>
 <div id="introduccion">
   Esta página web está dedicada a diagnosticar vehículos de competición en tiempo real. Nuestro trabajo es recibir los datos procedentes de los dispositivos
   OBD instalados en los vehículos y tratarlos de manera que el usuario final pueda entenderlos y tenerlos a su alcance.
@@ -72,7 +72,7 @@
 <section id="works" class="works section no-padding">
   <div class="container-fluid">
     <div class="row no-gutter">
-      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-1.jpg" class="work-box"> <img src="images/DTM.jpg" alt="" width="600px" height="450px">
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a class="work-box"> <img src="images/DTM.jpg" alt="" width="600px" height="450px">
         <div class="overlay">
           <div class="overlay-caption">
             <h5>DTM</h5>
@@ -80,7 +80,7 @@
         </div>
         <!-- overlay --> 
         </a> </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-2.jpg" class="work-box"> <img src="images/GT3.jpg" alt="" width="600px" height="450px">
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a class="work-box"> <img src="images/GT3.jpg" alt="" width="600px" height="450px">
         <div class="overlay">
           <div class="overlay-caption">
             <h5>GT3</h5>
@@ -88,7 +88,7 @@
         </div>
         <!-- overlay --> 
         </a> </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-3.jpg" class="work-box"> <img src="images/Rally.jpg" alt="" width="600px" height="450px">
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a class="work-box"> <img src="images/Rally.jpg" alt="" width="600px" height="450px">
         <div class="overlay">
           <div class="overlay-caption">
             <h5>WRC</h5>
@@ -96,7 +96,7 @@
         </div>
         <!-- overlay --> 
         </a> </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-4.jpg" class="work-box"> <img src="images/Track_day.jpg" alt="" width="600px" height="450px">
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a class="work-box"> <img src="images/Track_day.jpg" alt="" width="600px" height="450px">
         <div class="overlay">
           <div class="overlay-caption">
             <h5>Track day</h5>

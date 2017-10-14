@@ -27,8 +27,8 @@
     <div class="header-content clearfix"> <a class="logo" href="#"><img src="images/velocimetro.jpg" alt="Mafolio" width="100px" height="100px"></a>
       <nav class="navigation" role="navigation">
         <ul class="primary-nav">
-          <li><a href="contact.html">Iniciar sesión</a></li>
-          <li><a href="about.html">Quienes somos</a></li>
+          <li><a href="registrarse">Registrarse</a></li>
+          <li><a href="/#quienes_somos">Quienes somos</a></li>
           <li><a href="http://www.zubirimanteo.hezkuntza.net/web/guest/inicio">Web de Zubiri Manteo</a></li>
         </ul>
       </nav>
@@ -52,9 +52,7 @@
   <div class="container">
     <div class="col-md-10 col-md-offset-1 text-center">
       <p>Rellene este formulario para registrarse</p>
-      <!--contact form start-->
-      <!--<div class="col-md-6 col-md-offset-3 conForm">-->
-        <!--<div id="message"></div> name="cform" id="cform"-->
+
         @if ($errors->any())
           <div class="alert alert-danger">
             <p>Registro no completado, faltan elementos o están mal escrito</p>
@@ -66,20 +64,24 @@
               </ul>
           </div>
         @endif
+      <div id="formulario">
         <form method="post" action="Datos_de_registro">
           <input type="hidden" name="_token" value="{{ csrf_token() }}">
           Nombre: <br />
-          <input name="Nombre" id="nombre" type="text" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Introduce tu nombre" >
+          <input name="Nombre" class="campos_formulario" id="nombre" type="text" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Introduce tu nombre" >
+          <br />
           Apellido: <br />
-          <input name="Apellido" id="apellido" type="text" class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 noMarr" placeholder="Introduce tu apellido" >
+          <input name="Apellido" class="campos_formulario" id="apellido" type="text" class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 noMarr" placeholder="Introduce tu apellido" >
+          <br />
           Dirección: <br />
-          <input name="Direccion" id="email" type="text" class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 noMarr" placeholder="Introduce tu dirección" >
+          <input name="Direccion" class="campos_formulario" id="email" type="text" class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 noMarr" placeholder="Introduce tu dirección" >
+          <br />
           E-mail: <br />
-          <input name="Email" id="email" type="text" class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 noMarr" placeholder="Correo electrónico" >
-          <input type="submit" class="submitBnt" value="Enviar" >
+          <input name="Email" class="campos_formulario" id="email" type="text" class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 noMarr" placeholder="Correo electrónico" >
+          <br />
+          <input type="submit" class="button_CSS" value="Enviar" >
         </form>
-      <!--</div>-->
-      <!--contact form end--> 
+      </div>
     </div>
   </div>
 </section>
