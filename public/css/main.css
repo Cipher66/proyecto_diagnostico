@@ -149,7 +149,10 @@ ul li {
 .navigation a {
 	/*color: rgba(255, 255, 255, 0.75);*/
 	/*color: #000;*/
-	color: #f0de00;
+	/*color: #f0de00;
+	//color: red;*/
+	color: #f0a503;
+	text-shadow: 1px 1px black;
 	font-size: 13px;
 	font-weight: 400;
 	margin-left: 40px;
@@ -312,6 +315,7 @@ ul li {
 	/*background-image: url("http://images.caricos.com/l/lamborghini/2018_lamborghini_huracan_super_trofeo_evo/images/1920x1080/2018_lamborghini_huracan_super_trofeo_evo_1_1920x1080.jpg");*/
 	background-image: url("../images/Lambo_Hu_ST.jpg");
 	min-height: 750px;
+	width: 100%;
     background-repeat: no-repeat;
 }
 .banner-text {
